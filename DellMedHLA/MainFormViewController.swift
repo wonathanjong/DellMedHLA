@@ -41,29 +41,29 @@ class MainFormViewController: FormViewController {
             +++ Section("Mental Status")
             
             <<< TextAreaRow() {
-                $0.value = "Altertness/Orientation"
+                $0.value = "Altertness/Orientation "
                 $0.placeholder = "Altertness/Orientation"
                 $0.textAreaMode = .readOnly
                 $0.textAreaHeight = .fixed(cellHeight: 40)
             }
 
             <<< CheckRow() {
-                $0.title = "   Person?"
+                $0.title = "   Person 👱‍♂️?"
                 $0.value = false
             }
             <<< CheckRow() {
-                $0.title = "   Place?"
+                $0.title = "   Place 🏥?"
                 $0.value = false
             }
             <<< CheckRow() {
-                $0.title = "   Time?"
+                $0.title = "   Time ⏰?"
                 $0.value = false
             }
             
             +++ Section()
             
             <<< TableInlineRow<String> { row in
-                row.title = "Distress"
+                row.title = "Distress 😩"
                 row.options = ["None", "Mild", "Moderate", "Severe"]
                     row.value = "None"
             }
@@ -77,7 +77,7 @@ class MainFormViewController: FormViewController {
             +++ Section()
             
             <<< TableInlineRow<String> { row in
-                row.title = "Speech"
+                row.title = "Speech 💬"
                 row.options = ["Fluent", "Word Finding Difficulty", "Neologisms", "Paraphasic Errors", "Circumlocution"]
                 row.value = "Fluent"
             }
@@ -111,7 +111,7 @@ class MainFormViewController: FormViewController {
         
         +++ Section("Cranial Nerves")
             <<< TableInlineRow<String> { row in
-                row.title = "Visual Acuity"
+                row.title = "Visual Acuity 👓"
                 row.options = ["20/20", "20/25", "20/30", "20/40", "20/50", "20/70", "20/100", "20/200"]
                 row.value = "20/20"
             }
@@ -158,14 +158,14 @@ class MainFormViewController: FormViewController {
             +++ Section()
             
             <<< SegmentedRow<String>() {
-                $0.title = "Pupil Size"
-                $0.options = ["Equal", "Right > Left", "Left > Right"] }
+                $0.title = "Pupil Size 👀"
+                $0.options = ["Equal =", "Right > Left", "Left > Right"] }
             
             +++ Section()
             
             <<< SegmentedRow<String>() {
-                $0.title = "Pupil Shape"
-                $0.options = ["Round", "Abnormal"] }
+                $0.title = "Pupil Shape 👁"
+                $0.options = ["Round ⚪️", "Abnormal 🚫"] }
             <<< TextAreaRow() {
                 $0.value = ""
                 $0.placeholder = "How abnormal is pupil shape?"
@@ -176,7 +176,7 @@ class MainFormViewController: FormViewController {
             +++ Section()
             <<< SegmentedRow<String>() {
                 $0.title = "Pupil Reactivity"
-                $0.options = ["Reactive", "Abormal"] }
+                $0.options = ["Reactive", "Abnormal 🚫"] }
             +++ Section()
             <<< SegmentedRow<String>() {
                 $0.title = "Relative Afferent Pupil Defect"
@@ -278,7 +278,7 @@ class MainFormViewController: FormViewController {
             
             <<< SegmentedRow<String>() {
                 $0.title = "Muscle Tone"
-                $0.options = ["Normal", "Abnormal"] }
+                $0.options = ["Normal", "Abnormal 🚫"] }
             +++ Section()
             <<< SegmentedRow<String>() {
                 $0.title = "Muscle Bulk"
@@ -709,7 +709,7 @@ class MainFormViewController: FormViewController {
         +++ Section("Gait")
             <<< SegmentedRow<String> { row in
                 row.title = "Station"
-                row.options = ["Normal", "Abnormal"]
+                row.options = ["Normal", "Abnormal 🚫"]
                 row.value = "None"
         }
         +++ Section()
@@ -729,13 +729,13 @@ class MainFormViewController: FormViewController {
             +++ Section()
             <<< SegmentedRow<String> { row in
                 row.title = "Toe Walk"
-                row.options = ["Normal", "Abnormal"]
+                row.options = ["Normal", "Abnormal 🚫"]
                 row.value = "None"
             }
             +++ Section()
             <<< SegmentedRow<String> { row in
                 row.title = "Heel Walk"
-                row.options = ["Normal", "Abnormal"]
+                row.options = ["Normal", "Abnormal 🚫"]
                 row.value = "None"
             }
             +++ Section()

@@ -18,7 +18,7 @@ class WelcomePageViewController: UIViewController {
         buttonView.setTitleColor(UIColor.white, for: .normal)
         buttonView.setTitleColor(UIColor.darkGray, for: .highlighted)
         buttonView.backgroundColor = UIColor.init(red: 178/255, green: 95/255, blue: 54/255, alpha: 1.0)
-        buttonView.titleLabel?.font = UIFont.systemFont(ofSize: 36)
+        buttonView.titleLabel?.font = UIFont.systemFont(ofSize: 24)
         buttonView.addTarget(self, action: #selector(WelcomePageViewController.start), for: .touchUpInside)
         buttonView.alpha = 0.0
         return buttonView
@@ -85,13 +85,13 @@ class WelcomePageViewController: UIViewController {
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        startBT.layer.cornerRadius = startBT.frame.height/4
+//        startBT.layer.cornerRadius = startBT.frame.height/4
     }
    
     func setupConstraints() {
         backgroundImage.autoPinEdgesToSuperviewEdges()
         backgroundTint.autoPinEdgesToSuperviewEdges()
-        foregroundImage.autoPinEdge(toSuperviewEdge: .top, withInset: 10)
+        foregroundImage.autoPinEdge(toSuperviewEdge: .top, withInset: 0)
         foregroundImage.autoAlignAxis(toSuperviewAxis: .vertical)
         foregroundImage.autoSetDimensions(to: CGSize(width: Constants.Screen.height/1.25*1.32, height: Constants.Screen.height/1.25))
         startBT.autoAlignAxis(.vertical, toSameAxisOf: foregroundImage)
