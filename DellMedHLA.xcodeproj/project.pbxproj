@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1892FAD8209549EA007F268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892FAD7209549EA007F268F /* AppDelegate.swift */; };
+		1892FADF209549EB007F268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1892FADE209549EB007F268F /* Assets.xcassets */; };
+		1892FAE2209549EB007F268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892FAE0209549EB007F268F /* LaunchScreen.storyboard */; };
+		18E55D8B2095560900726607 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55D8A2095560900726607 /* Constants.swift */; };
+		18E55D8D209556C700726607 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55D8C209556C700726607 /* WelcomePageViewController.swift */; };
+		18E55D8F2095622300726607 /* MainFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55D8E2095622300726607 /* MainFormViewController.swift */; };
+		18E55D9620958BDD00726607 /* EurekaSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55D9520958BDD00726607 /* EurekaSectionHeader.xib */; };
+		18E55D9820958CEB00726607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E55D9720958CEB00726607 /* Main.storyboard */; };
+		18E55DA9209590FB00726607 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55DA8209590FB00726607 /* CustomCells.swift */; };
+		18E55DAB2095911200726607 /* EmojiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55DAA2095911200726607 /* EmojiCell.xib */; };
+		18E55DAC2095945800726607 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55DA3209590D200726607 /* FloatLabelTextField.swift */; };
+		18E55DAD2095946F00726607 /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55DA7209590DC00726607 /* DatePickerCell.xib */; };
+		18E55DAE2095947200726607 /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55DA6209590DC00726607 /* SwitchCell.xib */; };
+		18E55DAF2095947500726607 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55DA5209590DC00726607 /* TextCell.xib */; };
+		18E55DB02095948700726607 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55DA0209590CB00726607 /* ImagePickerController.swift */; };
+		18E55DB12095948900726607 /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55DA1209590CB00726607 /* ImageRow.swift */; };
+		18E55DB32095952D00726607 /* WeekDaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55DB22095952D00726607 /* WeekDaysCell.xib */; };
+		B86A51DBDCE2F8C66C546661 /* Pods_DellMedHLA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2D4971E893635331161258 /* Pods_DellMedHLA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1892FAD4209549EA007F268F /* DellMedHLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DellMedHLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1892FAD7209549EA007F268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1892FADE209549EB007F268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1892FAE1209549EB007F268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1892FAE3209549EB007F268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E55D8A2095560900726607 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18E55D8C209556C700726607 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		18E55D8E2095622300726607 /* MainFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFormViewController.swift; sourceTree = "<group>"; };
+		18E55D9520958BDD00726607 /* EurekaSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EurekaSectionHeader.xib; sourceTree = "<group>"; };
+		18E55D9720958CEB00726607 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18E55DA0209590CB00726607 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		18E55DA1209590CB00726607 /* ImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		18E55DA3209590D200726607 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		18E55DA5209590DC00726607 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		18E55DA6209590DC00726607 /* SwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		18E55DA7209590DC00726607 /* DatePickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		18E55DA8209590FB00726607 /* CustomCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		18E55DAA2095911200726607 /* EmojiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiCell.xib; sourceTree = "<group>"; };
+		18E55DB22095952D00726607 /* WeekDaysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekDaysCell.xib; sourceTree = "<group>"; };
+		AF2D4971E893635331161258 /* Pods_DellMedHLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DellMedHLA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E7D965E90471A3A53C2B0C /* Pods-DellMedHLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DellMedHLA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DellMedHLA/Pods-DellMedHLA.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF0F3CA62E0A715791C0D1D /* Pods-DellMedHLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DellMedHLA.release.xcconfig"; path = "Pods/Target Support Files/Pods-DellMedHLA/Pods-DellMedHLA.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1892FAD1209549EA007F268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86A51DBDCE2F8C66C546661 /* Pods_DellMedHLA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1892FACB209549EA007F268F = {
+			isa = PBXGroup;
+			children = (
+				1892FAD6209549EA007F268F /* DellMedHLA */,
+				1892FAD5209549EA007F268F /* Products */,
+				36AD211363A11711872995E0 /* Pods */,
+				BDE488ADDF41272E031756FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1892FAD5209549EA007F268F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1892FAD4209549EA007F268F /* DellMedHLA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1892FAD6209549EA007F268F /* DellMedHLA */ = {
+			isa = PBXGroup;
+			children = (
+				1892FAD7209549EA007F268F /* AppDelegate.swift */,
+				18E55D8A2095560900726607 /* Constants.swift */,
+				18E55D8C209556C700726607 /* WelcomePageViewController.swift */,
+				18E55D8E2095622300726607 /* MainFormViewController.swift */,
+				18E55D9920958E0B00726607 /* Custom Xibs */,
+				18E55D9A20958E2200726607 /* Storyboards */,
+				1892FAE3209549EB007F268F /* Info.plist */,
+				1892FADE209549EB007F268F /* Assets.xcassets */,
+			);
+			path = DellMedHLA;
+			sourceTree = "<group>";
+		};
+		18E55D9920958E0B00726607 /* Custom Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				18E55DA4209590DC00726607 /* CustomDesign */,
+				18E55D9E209590CB00726607 /* CustomRows */,
+			);
+			path = "Custom Xibs";
+			sourceTree = "<group>";
+		};
+		18E55D9A20958E2200726607 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				18E55D9720958CEB00726607 /* Main.storyboard */,
+				1892FAE0209549EB007F268F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		18E55D9E209590CB00726607 /* CustomRows */ = {
+			isa = PBXGroup;
+			children = (
+				18E55DB22095952D00726607 /* WeekDaysCell.xib */,
+				18E55DAA2095911200726607 /* EmojiCell.xib */,
+				18E55D9520958BDD00726607 /* EurekaSectionHeader.xib */,
+				18E55DA2209590D200726607 /* Helpers */,
+				18E55D9F209590CB00726607 /* ImageRow */,
+			);
+			path = CustomRows;
+			sourceTree = "<group>";
+		};
+		18E55D9F209590CB00726607 /* ImageRow */ = {
+			isa = PBXGroup;
+			children = (
+				18E55DA0209590CB00726607 /* ImagePickerController.swift */,
+				18E55DA1209590CB00726607 /* ImageRow.swift */,
+			);
+			path = ImageRow;
+			sourceTree = "<group>";
+		};
+		18E55DA2209590D200726607 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18E55DA8209590FB00726607 /* CustomCells.swift */,
+				18E55DA3209590D200726607 /* FloatLabelTextField.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18E55DA4209590DC00726607 /* CustomDesign */ = {
+			isa = PBXGroup;
+			children = (
+				18E55DA5209590DC00726607 /* TextCell.xib */,
+				18E55DA6209590DC00726607 /* SwitchCell.xib */,
+				18E55DA7209590DC00726607 /* DatePickerCell.xib */,
+			);
+			path = CustomDesign;
+			sourceTree = "<group>";
+		};
+		36AD211363A11711872995E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E7D965E90471A3A53C2B0C /* Pods-DellMedHLA.debug.xcconfig */,
+				FBF0F3CA62E0A715791C0D1D /* Pods-DellMedHLA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDE488ADDF41272E031756FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D4971E893635331161258 /* Pods_DellMedHLA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1892FAD3209549EA007F268F /* DellMedHLA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1892FAE6209549EB007F268F /* Build configuration list for PBXNativeTarget "DellMedHLA" */;
+			buildPhases = (
+				19EAAE1FC4196F5FF0205DF2 /* [CP] Check Pods Manifest.lock */,
+				1892FAD0209549EA007F268F /* Sources */,
+				1892FAD1209549EA007F268F /* Frameworks */,
+				1892FAD2209549EA007F268F /* Resources */,
+				B547CAB9128D3F4E3313B053 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DellMedHLA;
+			productName = DellMedHLA;
+			productReference = 1892FAD4209549EA007F268F /* DellMedHLA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1892FACC209549EA007F268F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jonathan Wong ";
+				TargetAttributes = {
+					1892FAD3209549EA007F268F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1892FACF209549EA007F268F /* Build configuration list for PBXProject "DellMedHLA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1892FACB209549EA007F268F;
+			productRefGroup = 1892FAD5209549EA007F268F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1892FAD3209549EA007F268F /* DellMedHLA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1892FAD2209549EA007F268F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892FAE2209549EB007F268F /* LaunchScreen.storyboard in Resources */,
+				18E55DAB2095911200726607 /* EmojiCell.xib in Resources */,
+				18E55DAF2095947500726607 /* TextCell.xib in Resources */,
+				1892FADF209549EB007F268F /* Assets.xcassets in Resources */,
+				18E55DAD2095946F00726607 /* DatePickerCell.xib in Resources */,
+				18E55D9620958BDD00726607 /* EurekaSectionHeader.xib in Resources */,
+				18E55DAE2095947200726607 /* SwitchCell.xib in Resources */,
+				18E55D9820958CEB00726607 /* Main.storyboard in Resources */,
+				18E55DB32095952D00726607 /* WeekDaysCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EAAE1FC4196F5FF0205DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DellMedHLA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B547CAB9128D3F4E3313B053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DellMedHLA/Pods-DellMedHLA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/TableRow/TableRow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TableRow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DellMedHLA/Pods-DellMedHLA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1892FAD0209549EA007F268F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892FAD8209549EA007F268F /* AppDelegate.swift in Sources */,
+				18E55D8D209556C700726607 /* WelcomePageViewController.swift in Sources */,
+				18E55DA9209590FB00726607 /* CustomCells.swift in Sources */,
+				18E55DAC2095945800726607 /* FloatLabelTextField.swift in Sources */,
+				18E55DB12095948900726607 /* ImageRow.swift in Sources */,
+				18E55D8B2095560900726607 /* Constants.swift in Sources */,
+				18E55DB02095948700726607 /* ImagePickerController.swift in Sources */,
+				18E55D8F2095622300726607 /* MainFormViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1892FAE0209549EB007F268F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1892FAE1209549EB007F268F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1892FAE4209549EB007F268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1892FAE5209549EB007F268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1892FAE7209549EB007F268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E7D965E90471A3A53C2B0C /* Pods-DellMedHLA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNJPT7VH25;
+				INFOPLIST_FILE = DellMedHLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonathanjong.DellMedHLA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1892FAE8209549EB007F268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF0F3CA62E0A715791C0D1D /* Pods-DellMedHLA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNJPT7VH25;
+				INFOPLIST_FILE = DellMedHLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonathanjong.DellMedHLA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1892FACF209549EA007F268F /* Build configuration list for PBXProject "DellMedHLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892FAE4209549EB007F268F /* Debug */,
+				1892FAE5209549EB007F268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1892FAE6209549EB007F268F /* Build configuration list for PBXNativeTarget "DellMedHLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892FAE7209549EB007F268F /* Debug */,
+				1892FAE8209549EB007F268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1892FACC209549EA007F268F /* Project object */;
+}

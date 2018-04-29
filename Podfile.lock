@@ -1,0 +1,25 @@
+PODS:
+  - Eureka (4.1.1)
+  - PureLayout (3.0.2)
+  - TableRow (0.1.0):
+    - Eureka (~> 4.0)
+
+DEPENDENCIES:
+  - Eureka
+  - PureLayout
+  - TableRow
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Eureka
+    - PureLayout
+    - TableRow
+
+SPEC CHECKSUMS:
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  TableRow: c832241c895e0f9a7174c15db8cbf37857a7d9fe
+
+PODFILE CHECKSUM: f81e35a6cc7f4321fcbe0996065b6c0283d34920
+
+COCOAPODS: 1.5.0
