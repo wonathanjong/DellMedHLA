@@ -3,100 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0481F15111F539FD13D631E222527686 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 681C1228209C26EF4F7225C2ACB36616 /* PureLayout-dummy.m */; };
-		0DDF90AAACFE7B1FD5B1ECF40AEB56BF /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190BB3C6B6CE417DA1B4AD296DAC797 /* RowType.swift */; };
-		0FF87DF6D02FAE0CEC1BCEE5C093680D /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105B93A5EA45D4EDD0C313266EA12FD /* RuleRegExp.swift */; };
-		11A044B8C31303378B8237DCB44D318D /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C35F7FAFEFE3DA2EFAC996BD2F269A /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15BA094500131552667502000232643B /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BA94BFE54B23D8594061938BD0BA5202 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E55DBC2095A0FE00726607 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55DBB2095A0FE00726607 /* TextAreaRow.swift */; };
-		19264965154E9EDB5226D4EDAB89025D /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56DC053BCD169CA051843E6AC51D76C9 /* Eureka.bundle */; };
-		1F0CE8C0B7CCCCF7AD0190B16D7FB8DA /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5302DCDAE54E6AB2C1D6C9A8CD20D4 /* SelectorViewController.swift */; };
-		1FC9A97704EEAA1AA22EB0FAD237116A /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F614588599FCBD0A9021F94AF5E6154E /* HeaderFooterView.swift */; };
-		26AAF089C5B85F9A709501D8BF289CDD /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB958588094E6445E58D8E790E9856 /* Cell.swift */; };
-		2B5073CAFB2882A5094312E7C6DB4D60 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD38DA53470E909B8A516178BB5219B /* DateRow.swift */; };
+		0481F15111F539FD13D631E222527686 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8071ACC3C9D550176A7D410BFD3E7 /* PureLayout-dummy.m */; };
+		0DDF90AAACFE7B1FD5B1ECF40AEB56BF /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60AA4674EB4063F5CF2B7B6CEF4C837 /* RowType.swift */; };
+		0FF87DF6D02FAE0CEC1BCEE5C093680D /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A038D2B1F968FD5AAEC8782EAA7304 /* RuleRegExp.swift */; };
+		11A044B8C31303378B8237DCB44D318D /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D6A2CBC064FFE36090258F670EFC3C /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15BA094500131552667502000232643B /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A9C4C5F72132614B7E45222E9B06D /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19264965154E9EDB5226D4EDAB89025D /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15375DE224B1803B8C87C40DC7E1ABE3 /* Eureka.bundle */; };
+		1F0CE8C0B7CCCCF7AD0190B16D7FB8DA /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE418644C0E5AF0A63B7FE02A4856DE /* SelectorViewController.swift */; };
+		1FC9A97704EEAA1AA22EB0FAD237116A /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A06C71938AC3DE9F31C888A5A573AE /* HeaderFooterView.swift */; };
+		26AAF089C5B85F9A709501D8BF289CDD /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A5CEFB9250604FE3818F5B1B00C88 /* Cell.swift */; };
+		2B5073CAFB2882A5094312E7C6DB4D60 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A4387F1016F31518B77737E54A975 /* DateRow.swift */; };
 		2FEDC2336D42A118EA9B4D728DDD5D11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1DC9BC83C7D9257CFD079DFB222B4B /* UIKit.framework */; };
-		34A93172B35C5CCF0575412C268F9107 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF207C16A4723F17AA0BD17BED456A /* RuleRange.swift */; };
+		34A93172B35C5CCF0575412C268F9107 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B7244F355AF55AE185EBC5BA8A446 /* RuleRange.swift */; };
 		38423FC322933E96D88F8D069313CAF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D365D221E4BCCE2F1DE9C3466F916 /* Foundation.framework */; };
-		3A0EDE277B11851190B2F10A0B4A2D4C /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 308421F8D7CC1EEC73C2189EDDD826EB /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DF3A73220437C90ACA753F5DC6CFE99 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F535AD4B75A276F3A50941E7A25F5264 /* ALView+PureLayout.m */; };
-		4301AEEDE29CB90A4FFC3A0EF4274E09 /* TableRow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8443D1FDF448B0DC616441B08C61647 /* TableRow-dummy.m */; };
-		43FED2BA79DF41B59D5518D39CAA5A2B /* TableRow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D067B71DCF43205454D86585D8BA6121 /* TableRow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		464C5FF032E34EFD0B9EE8C60F2815BE /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8E850AA25702FAF7822684EE197AC /* SelectableRowType.swift */; };
-		491C23C0DF6F8160EABDB836EA8EF93B /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80BBCF731CEF556B0368889E613EDBA /* FieldRow.swift */; };
-		4A96E7A304A8A7D137D8C6C498B62E06 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E69A6820EFE213F28F088CF00FEBF22 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F0C98EAF411D36DB680B407115E52A0 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33274B32455F4EA659D069D856F32C5C /* CheckRow.swift */; };
-		5269B817ADDC377864584F9504A2D13B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8914C6E3AE17C0CEABF9173A7040DD9 /* Operators.swift */; };
-		588043F507AFF490C36E9FC0F946C525 /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8D63B8A00B8F5CF358AA3F6AEF1FA /* NavigationAccessoryView.swift */; };
-		5E56555912561B74D5A42DF31880794D /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB33DD944DBD70F127D0180C8FAF056 /* PickerInputRow.swift */; };
-		63A3B9FDB0B5033C25C166876154D124 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C54785B1E327F6727690C6B677F9C58A /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BB3B37EFB01E18CA3BB44A3F55ED8AE /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CAF08211C7AA1AFBB0F1F84583916 /* OptionsRow.swift */; };
+		3A0EDE277B11851190B2F10A0B4A2D4C /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 351CB6F46F74B4EE6E7F29A40D544298 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF3A73220437C90ACA753F5DC6CFE99 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F9711CBF95995DC04F51F1F162513 /* ALView+PureLayout.m */; };
+		4301AEEDE29CB90A4FFC3A0EF4274E09 /* TableRow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE0D91004B0B2FF0E64D7FC4EA73544 /* TableRow-dummy.m */; };
+		43FED2BA79DF41B59D5518D39CAA5A2B /* TableRow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1440226C1E31AE46B32A72848ABD05B /* TableRow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		464C5FF032E34EFD0B9EE8C60F2815BE /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CB4C25988651A4D1ED4819C2BEE67 /* SelectableRowType.swift */; };
+		491C23C0DF6F8160EABDB836EA8EF93B /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661284C624B338EB042B750EEF0EA9B /* FieldRow.swift */; };
+		4A96E7A304A8A7D137D8C6C498B62E06 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC6CC5AB6E340BE5106081AC794661A /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0C98EAF411D36DB680B407115E52A0 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60EE6B2E3D7ABC8BA32FDF1B3F8208 /* CheckRow.swift */; };
+		5269B817ADDC377864584F9504A2D13B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E0BE258D61E175308EADD0A8C99F9 /* Operators.swift */; };
+		588043F507AFF490C36E9FC0F946C525 /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D26571F69B28C32FCF7814F02B37D3 /* NavigationAccessoryView.swift */; };
+		5E56555912561B74D5A42DF31880794D /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465ECB4BFE90C4D31E7A91DA62ECCF53 /* PickerInputRow.swift */; };
+		63A3B9FDB0B5033C25C166876154D124 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E82085E2DBB0047EA6C16535824D24 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB3B37EFB01E18CA3BB44A3F55ED8AE /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D8E8E12F9F7E187710AFBA0A7B63E /* OptionsRow.swift */; };
 		6CB65BF7F28943F94AEC4206687D577C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D365D221E4BCCE2F1DE9C3466F916 /* Foundation.framework */; };
-		6D7DB3590D60AE66570785FF487267A0 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93274748E95AA525D57E117CC90E04AD /* DateInlineFieldRow.swift */; };
-		7073F2B4D057275280FAA634EEFEDAAD /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8A3BC136A2F57210119312BED0566 /* PickerInlineRow.swift */; };
-		7193F739A5AF9CE762A5B5655AD936B0 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9214B9BEAB5190391AC20E3ACDA59874 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74511162E7B5921BA3491328DF778B5D /* TableInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA3148F72F8A5705C9DA593F6DECEF /* TableInlineRow.swift */; };
-		7803814F37C7CE951440F11BFF9B76D7 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8045B59C464AE3B95077BAF13E8348B /* SwitchRow.swift */; };
-		78213D0F2E7154C505DBF7C38C0819CA /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49020BABD2A99A277FBDAFB438733046 /* DecimalFormatter.swift */; };
-		78B848FB0AD0E2BE7881C19CE8C25CDB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CE6F1B7ED6BB73B8A4199D309DD79 /* Helpers.swift */; };
-		7BAD1A9AC7D26ED5756A262F4CC563C9 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8593CB762D81AA50078667B67B621D3 /* RuleEqualsToRow.swift */; };
-		82437906DEFEF018EC11E8DA9CC4C8EC /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B493BE0F5B9A87C46BE54E8E602D32 /* Eureka-dummy.m */; };
-		82EF1F77F62F02E777C8E1A8AD530B26 /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E0C030960D5519C8A8DE2AAD28911 /* MultipleSelectorViewController.swift */; };
-		8558003991BBD922D5DF1FFD75905409 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7693E1D7115BEAE202736AD648A29EA3 /* DateFieldRow.swift */; };
-		85E230D9933C238909620A0DB252D9AD /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B226E2DDDE58E9ADE9BE6474B650C /* AlertOptionsRow.swift */; };
-		87E2637ADC315DE5D9276BD08DE73C9E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCA8F1CBDF0CA5E0488FB45C8D917E /* Validation.swift */; };
-		8A23A85B75A776EE75DE405E808EACE4 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A03C3EAC90856A3C0A45EFC0736C /* StepperRow.swift */; };
+		6D7DB3590D60AE66570785FF487267A0 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E753376913166A5E21A7D932E3E6F44 /* DateInlineFieldRow.swift */; };
+		7073F2B4D057275280FAA634EEFEDAAD /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF4F155F001577490496B4C327EED0 /* PickerInlineRow.swift */; };
+		7193F739A5AF9CE762A5B5655AD936B0 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6ACD5700F02CEA725A44EDF06EA290 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74511162E7B5921BA3491328DF778B5D /* TableInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE9B993238A4EA89A7E9A43DEA5E75C /* TableInlineRow.swift */; };
+		7803814F37C7CE951440F11BFF9B76D7 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B03EF7EBE287CDD272A4FBF3F7A97 /* SwitchRow.swift */; };
+		78213D0F2E7154C505DBF7C38C0819CA /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C05EE2D85DCCA2DC0D567C315C4CF4 /* DecimalFormatter.swift */; };
+		78B848FB0AD0E2BE7881C19CE8C25CDB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6414DFE879A30E6C4176A46346C3F010 /* Helpers.swift */; };
+		7BAD1A9AC7D26ED5756A262F4CC563C9 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7D0149BE4D7EFA8E6CAB8483AE32D /* RuleEqualsToRow.swift */; };
+		82437906DEFEF018EC11E8DA9CC4C8EC /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1926D60EF793E7C73F073B15CD9A7861 /* Eureka-dummy.m */; };
+		82EF1F77F62F02E777C8E1A8AD530B26 /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF13DDC1A0549A598FD21122511363C /* MultipleSelectorViewController.swift */; };
+		8558003991BBD922D5DF1FFD75905409 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C37376B6B50009ABC73CA9B331C0D9 /* DateFieldRow.swift */; };
+		85E230D9933C238909620A0DB252D9AD /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF143AEDE8AEEAED783FC12A7CBF709 /* AlertOptionsRow.swift */; };
+		87E2637ADC315DE5D9276BD08DE73C9E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF22A6424225C26B7BEEDCE4D2D69D /* Validation.swift */; };
+		8A23A85B75A776EE75DE405E808EACE4 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FACD356297D7BC4AE6133753605FB /* StepperRow.swift */; };
 		91B7DF16699E1BA0B6378AA797941203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D365D221E4BCCE2F1DE9C3466F916 /* Foundation.framework */; };
-		96142ACB9C3C273F6712EDB0110AEF11 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE21500A32BD15472B9AAB737BE6843 /* GenericMultipleSelectorRow.swift */; };
+		96142ACB9C3C273F6712EDB0110AEF11 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F0F09E8EE32BC0F146D065365FC77 /* GenericMultipleSelectorRow.swift */; };
 		967AF06BE83AD1E26594F3D51253F549 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */; };
-		98745210048C3B8902CF5C6F0E08E82E /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566B6CC883F715B73D13726DC3F9424 /* ButtonRowWithPresent.swift */; };
-		9A54590AD58F53BE4C95491F75DC0799 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADE696BC3A72602426440C523B9034 /* Form.swift */; };
-		9C1ADA7FE90B44FCDD005B3B70DEC025 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DACDF6004CFF0D67223D3CCC6567A /* RowControllerType.swift */; };
-		9D34D6EEE9D17B6FAD2D44EF7B4B2D61 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C31BE1D68939AA93F39512E6E47F /* PopoverSelectorRow.swift */; };
+		98745210048C3B8902CF5C6F0E08E82E /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526A89D501E912BBBF3B3F4A7CCCB7C /* ButtonRowWithPresent.swift */; };
+		9A54590AD58F53BE4C95491F75DC0799 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629D46D49412A6C4E49F9D854448DBA /* Form.swift */; };
+		9C1ADA7FE90B44FCDD005B3B70DEC025 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF605696A55EB598C16CAAED4352FE /* RowControllerType.swift */; };
+		9D34D6EEE9D17B6FAD2D44EF7B4B2D61 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0E66A4E8BFBE126F74E1CB845C3B01 /* PopoverSelectorRow.swift */; };
 		A271D72CA0A21E3C35BA19B44707A7A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1DC9BC83C7D9257CFD079DFB222B4B /* UIKit.framework */; };
-		A2C7DB594B12DD745557F37613AAF409 /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ADE5DF039CE7FD89B677565F2EBDF /* SelectorRow.swift */; };
-		A3952AF8BD1ACB44527EBD33414F47DA /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E6E0BE50F997BA1999D8CB0CC25A0 /* DateInlineRow.swift */; };
-		A3C979A75C175E033C9BC702F7149496 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D139280F827ADE32DB2D9E130705A1 /* RuleEmail.swift */; };
-		A40BD313F0A4080061B20179D69C4AE4 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD3C8FB96D77C1FD4189E3C493E65C /* SwipeActions.swift */; };
-		A525C51010CE72073F00A4114D87D673 /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD92C14E80DA222DAF06ED8532C0EF7 /* PushRow.swift */; };
-		A5B0BEF80A2A3B8E52886C1BE3323B73 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC779A9140C93421A732D6197382DFA9 /* SliderRow.swift */; };
-		A6AB329F72CAF24F5FBBC02E42699A78 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFCBDB87CF325F567D684B288DB1F7 /* AlertRow.swift */; };
-		A7412578B7C3015739E5428CB52F3988 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BC84297BAFB6F4902752693C8A423 /* LabelRow.swift */; };
-		A813510FCE6CF43B84139892FA013706 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE035E86423951A0B96C387612DCF3A /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5702160B41EBDE15316BE9B5A6E1198 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95601CAF2EFDC5703AA38AFE3B0A1B28 /* TableRow.swift */; };
-		B5E7656508475546193E4C2042CE627B /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F638B0735FA86908FA53D5DAA4BD84 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6CF510719F299704933F391C1DA02F1 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE319B8C537012A50954E114417DA9E0 /* InlineRowType.swift */; };
-		B7142E528B701490EA54A86832D45E2C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958B1EC8E3AD97A4B98A2C952EF5D3C /* Protocols.swift */; };
-		B73D06CE77C22D6B197047174AF442A9 /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6381FD042B2D5B956BE223DA75E01E28 /* DatePickerRow.swift */; };
-		B8724FCC259FB9A85C71453700E0CAAE /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0A21A836A153E32F564C04298DAB7 /* PickerRow.swift */; };
-		BABFB3EC44D87F18E3D490C480A5D692 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C47F181B2327DF8C9394AE70A6A0E90 /* Section.swift */; };
-		BAEF3414395FC89521EA68EE72CE0B98 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F790FCF756FE104D87B4508A2983BB /* CellType.swift */; };
-		BD4363A33291726C52E80D916359DCC0 /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130C26E593876E977E0834FFCD3D525 /* RowProtocols.swift */; };
-		C72E2806AB1E981C12931CB73DE15049 /* IntrinsicContentSizeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D23B28F4C7BC8A8BA12B8FBC82B8D /* IntrinsicContentSizeTableView.swift */; };
-		C9876F34C198ED815CCE2F01A807C6EE /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF554419F36111E2B576E77E167E1A54 /* RuleClosure.swift */; };
-		CAE17F5486F3F00EA7C7A08689179419 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6095632ACDC589CCE2049AB71A29A /* PresenterRowType.swift */; };
-		CB06F49BCCB40F9D1580131E2F7E9C51 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7A8964184CC7F4E01F05715CCC1BC /* ListCheckRow.swift */; };
-		CBDC4F81624A666DFD7E59501462419B /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FF7B638509EA72D2C9FF533615BD8 /* NSLayoutConstraint+PureLayout.m */; };
-		D2CC0D0C04CEC4E966A07A74EDB33552 /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3829049CFC1EB13539A8B4475AA7ABD6 /* RuleURL.swift */; };
+		A2C7DB594B12DD745557F37613AAF409 /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE31DD80044C6CB2F63368A1D6213E /* SelectorRow.swift */; };
+		A3952AF8BD1ACB44527EBD33414F47DA /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FFFA1C844593CB7F5A470F7C93549 /* DateInlineRow.swift */; };
+		A3C979A75C175E033C9BC702F7149496 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61669D14BDFB05B7F27F6FE2A7F8AE69 /* RuleEmail.swift */; };
+		A40BD313F0A4080061B20179D69C4AE4 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5FA638A3CFA1BD8D201A267104CB4C /* SwipeActions.swift */; };
+		A525C51010CE72073F00A4114D87D673 /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C7A48669219A5FD10CEE687F491E20 /* PushRow.swift */; };
+		A5B0BEF80A2A3B8E52886C1BE3323B73 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F73818DA7E8B205EEFFB453EED27A /* SliderRow.swift */; };
+		A6AB329F72CAF24F5FBBC02E42699A78 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0734490548592906677CF34B840410E /* AlertRow.swift */; };
+		A7412578B7C3015739E5428CB52F3988 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA904829793B9FB73EBD6A49AE7A7FB2 /* LabelRow.swift */; };
+		A813510FCE6CF43B84139892FA013706 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 889B277A9F263B444BD2EA29530DC2CD /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5702160B41EBDE15316BE9B5A6E1198 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC02FC522CAE545CF412F9573A35495 /* TableRow.swift */; };
+		B5E7656508475546193E4C2042CE627B /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EF435E195D62B103737717FF0C5303 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CF510719F299704933F391C1DA02F1 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F044C6E64169FF9F0103DF7AE379F /* InlineRowType.swift */; };
+		B7142E528B701490EA54A86832D45E2C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A8155308E97FBB9E32DCE21873A76E /* Protocols.swift */; };
+		B73D06CE77C22D6B197047174AF442A9 /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B2DB821C4DD0DAB8E3D604A5AE7C2B /* DatePickerRow.swift */; };
+		B8724FCC259FB9A85C71453700E0CAAE /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C299C09C5CBBBB173C04A8D4F568411 /* PickerRow.swift */; };
+		BABFB3EC44D87F18E3D490C480A5D692 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7BFB3D79C6F5BE6FCEB31F055CB642 /* Section.swift */; };
+		BAEF3414395FC89521EA68EE72CE0B98 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C73AF0C531E748E56B8FBB16D7B62 /* CellType.swift */; };
+		BD4363A33291726C52E80D916359DCC0 /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE77A8567B54B385BE074F8D92654C7 /* RowProtocols.swift */; };
+		C72E2806AB1E981C12931CB73DE15049 /* IntrinsicContentSizeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E069ABA6E15EB5FFA9AFC95AD0EE6 /* IntrinsicContentSizeTableView.swift */; };
+		C9876F34C198ED815CCE2F01A807C6EE /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14230591BE1D6FB84A4208264CCCC215 /* RuleClosure.swift */; };
+		CAE17F5486F3F00EA7C7A08689179419 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7D4CC46D695D65B7C8FF61FE75958 /* PresenterRowType.swift */; };
+		CB06F49BCCB40F9D1580131E2F7E9C51 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9793E22E8AF9EEC4BBB5EDD8412FD4 /* ListCheckRow.swift */; };
+		CBDC4F81624A666DFD7E59501462419B /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD3C50F8FC7FD0DEDE22542EE3302F /* NSLayoutConstraint+PureLayout.m */; };
+		D2CC0D0C04CEC4E966A07A74EDB33552 /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F6DFAF59E220837F429B3BF356C88 /* RuleURL.swift */; };
 		D346846EAA1AB41425DB69733182B465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D365D221E4BCCE2F1DE9C3466F916 /* Foundation.framework */; };
-		D3D25D6AAB9571BD2B5271FF32B2E6A2 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D99B94D5D53334093B82ECFD47FB6 /* ActionSheetRow.swift */; };
-		D3FD1F9A987A732D8003B9A65986B2D4 /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78ACFECA63591B21DE97BDD0D7F5455 /* RuleRequired.swift */; };
-		D52695286955EB7E787FA234B8B6277F /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8572032942711687433DEFA9946E1C /* Core.swift */; };
-		DC930E3011D5335C7A75B52687F70229 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB958FE758221CA738C78947996D2602 /* MultipleSelectorRow.swift */; };
-		DDE399C07B6E6F046D059DEA62A8756E /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C99636F2F777A91C8F9D764C8EECBA /* BaseRow.swift */; };
+		D3D25D6AAB9571BD2B5271FF32B2E6A2 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B03C7FF35BA1B8C3A508170BBDFDB /* ActionSheetRow.swift */; };
+		D3FD1F9A987A732D8003B9A65986B2D4 /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963918B05ABC4A286076036C1A7C2FF /* RuleRequired.swift */; };
+		D52695286955EB7E787FA234B8B6277F /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15852B33E4CC54E2BA9322C994C69631 /* Core.swift */; };
+		DC930E3011D5335C7A75B52687F70229 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D62F05355D4EEE316CBC37E69293B /* MultipleSelectorRow.swift */; };
+		DDE399C07B6E6F046D059DEA62A8756E /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67870ABE1D296AED153766C89E5BA8FB /* BaseRow.swift */; };
 		E19A64215F5099924C56E6172C2A6379 /* Pods-DellMedHLA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D05646A95DEB61BA15CB1C9A74AB608A /* Pods-DellMedHLA-dummy.m */; };
-		E26BDAE17C40118C151B4A56EF1C9204 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B2082E0971C3945FD0B4BC669E51F /* NSArray+PureLayout.m */; };
-		E701C52D8CEECE89DD781047AE38D20D /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFE795489BE73C30B6DD34E1215245C /* Row.swift */; };
-		EA2980A7E68C8EB71F07481B59B0B542 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289853FE87EBE8282A9336CA79C0351 /* SelectableSection.swift */; };
-		F090475750BF2EC7D1819FCEB98BDA3C /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D3CF64A3F6059D5C790BA3BED261C3 /* FieldsRow.swift */; };
-		F1DD33FF6BBF0A9A7A92351B65FB084E /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F2D15552E95BA48AA3D7423349D70 /* SegmentedRow.swift */; };
-		F3BC6D911DF2EDF853BEA1D8A9B51EC6 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD540CFDFAB8E116B32766A63C8136C2 /* RuleLength.swift */; };
-		F59E1C311E479C51E7F3A80F49AEDBD4 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD95D6E0A347DB716C5CBD04D858CCB /* ButtonRow.swift */; };
+		E26BDAE17C40118C151B4A56EF1C9204 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EACF6716C89E204BFC7A80894B2ACD /* NSArray+PureLayout.m */; };
+		E701C52D8CEECE89DD781047AE38D20D /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BF8662C51B03DF753F0CCC44FE155F /* Row.swift */; };
+		EA2980A7E68C8EB71F07481B59B0B542 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25C5D01180836E0E43776634369B3D /* SelectableSection.swift */; };
+		F090475750BF2EC7D1819FCEB98BDA3C /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7325BC7D860C1EBF612044D4622173C6 /* FieldsRow.swift */; };
+		F1DD33FF6BBF0A9A7A92351B65FB084E /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61554F380E5638037274247DB1936F86 /* SegmentedRow.swift */; };
+		F3BC6D911DF2EDF853BEA1D8A9B51EC6 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F10D41A4FAC1A5C55F1C25C1F99438 /* RuleLength.swift */; };
+		F59E1C311E479C51E7F3A80F49AEDBD4 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DF06D220577815B304976A05AC80F /* ButtonRow.swift */; };
 		F8E1D4A29F67B919722885C0BDC93D5C /* Pods-DellMedHLA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33662C1654737B3CA0479BA596C3DE40 /* Pods-DellMedHLA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB090BB0305F121F743BE5B56224D8C4 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4C6571AA4ED1E343872B49655C4FF /* SelectorAlertController.swift */; };
+		FB090BB0305F121F743BE5B56224D8C4 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C637076F6702F4979EB48FDE4359BA /* SelectorAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,117 +130,125 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004E6E0BE50F997BA1999D8CB0CC25A0 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
-		036F82CD5B8E7E418DA65400E9CADB41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05FCA8F1CBDF0CA5E0488FB45C8D917E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
-		08C99636F2F777A91C8F9D764C8EECBA /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		020A07F84E8D8FCA4D3ED09052871C22 /* TableRow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableRow-prefix.pch"; sourceTree = "<group>"; };
+		067B7244F355AF55AE185EBC5BA8A446 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+		08E82085E2DBB0047EA6C16535824D24 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		0A5A4387F1016F31518B77737E54A975 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
 		0A6AB0DFF6FF16F6B655933238A976B2 /* Pods-DellMedHLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DellMedHLA.debug.xcconfig"; sourceTree = "<group>"; };
-		0C47F181B2327DF8C9394AE70A6A0E90 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
-		0CF04E682A1E853F6538706638DF606A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DA0A21A836A153E32F564C04298DAB7 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		0B5F9711CBF95995DC04F51F1F162513 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		0F1DC9BC83C7D9257CFD079DFB222B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		11F7A8964184CC7F4E01F05715CCC1BC /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
-		138E042BCADDD29EFC9A25EB2D30D520 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
-		140CEDD8A8B36D252D2A51B135EF6E38 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		0F5F0F09E8EE32BC0F146D065365FC77 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		112E0BE258D61E175308EADD0A8C99F9 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		12A7D0149BE4D7EFA8E6CAB8483AE32D /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		14230591BE1D6FB84A4208264CCCC215 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
 		144E7DF309FEF8701EF10F348BCFF825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15FA3148F72F8A5705C9DA593F6DECEF /* TableInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableInlineRow.swift; path = Sources/TableInlineRow.swift; sourceTree = "<group>"; };
-		18E55DBB2095A0FE00726607 /* TextAreaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAreaRow.swift; sourceTree = "<group>"; };
-		1B73876E8D5F24957089163B2F7C9E33 /* TableRow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableRow-prefix.pch"; sourceTree = "<group>"; };
-		1F5302DCDAE54E6AB2C1D6C9A8CD20D4 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
-		20F790FCF756FE104D87B4508A2983BB /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
-		216CAF08211C7AA1AFBB0F1F84583916 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
-		27789BF32DD156D54BFA352B431814A2 /* TableRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2883C31BE1D68939AA93F39512E6E47F /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
-		307D99B94D5D53334093B82ECFD47FB6 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
-		308421F8D7CC1EEC73C2189EDDD826EB /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		33274B32455F4EA659D069D856F32C5C /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		15375DE224B1803B8C87C40DC7E1ABE3 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
+		15852B33E4CC54E2BA9322C994C69631 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
+		16A038D2B1F968FD5AAEC8782EAA7304 /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		17F7D4CC46D695D65B7C8FF61FE75958 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		1926D60EF793E7C73F073B15CD9A7861 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		1A082C8170E65F612E91028B09166E8C /* SKAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAudio.h; path = SpeechKit.framework/Headers/SKAudio.h; sourceTree = "<group>"; };
+		1D5C73AF0C531E748E56B8FBB16D7B62 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		1F9B03C7FF35BA1B8C3A508170BBDFDB /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		273F6DFAF59E220837F429B3BF356C88 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		27789BF32DD156D54BFA352B431814A2 /* TableRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TableRow.framework; path = TableRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B790E2DFBAE36B34EDB911957A3F70 /* SKSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSession.h; path = SpeechKit.framework/Headers/SKSession.h; sourceTree = "<group>"; };
+		2A5A5CEFB9250604FE3818F5B1B00C88 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		2C299C09C5CBBBB173C04A8D4F568411 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		2C5FA638A3CFA1BD8D201A267104CB4C /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
 		33662C1654737B3CA0479BA596C3DE40 /* Pods-DellMedHLA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DellMedHLA-umbrella.h"; sourceTree = "<group>"; };
-		3829049CFC1EB13539A8B4475AA7ABD6 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		351CB6F46F74B4EE6E7F29A40D544298 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		363E069ABA6E15EB5FFA9AFC95AD0EE6 /* IntrinsicContentSizeTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntrinsicContentSizeTableView.swift; path = Sources/IntrinsicContentSizeTableView.swift; sourceTree = "<group>"; };
+		3963918B05ABC4A286076036C1A7C2FF /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
 		3C38E1ADC728A79A084BC37D7DA16A66 /* Pods-DellMedHLA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DellMedHLA-frameworks.sh"; sourceTree = "<group>"; };
-		3D2E0C030960D5519C8A8DE2AAD28911 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
-		3DD92C14E80DA222DAF06ED8532C0EF7 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
-		41F638B0735FA86908FA53D5DAA4BD84 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		49020BABD2A99A277FBDAFB438733046 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
-		49ADE696BC3A72602426440C523B9034 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
-		4AB33DD944DBD70F127D0180C8FAF056 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
-		4C1DACDF6004CFF0D67223D3CCC6567A /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
-		4F5B2082E0971C3945FD0B4BC669E51F /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		56DC053BCD169CA051843E6AC51D76C9 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
-		5D3728A609358D9CB61018764EEFA62A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7CE6F1B7ED6BB73B8A4199D309DD79 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
-		5FAC73C6B958AB6B3BB3E4C774BA5ABD /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
-		6190BB3C6B6CE417DA1B4AD296DAC797 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
-		6381FD042B2D5B956BE223DA75E01E28 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
-		681C1228209C26EF4F7225C2ACB36616 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		7105B93A5EA45D4EDD0C313266EA12FD /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		3C60EE6B2E3D7ABC8BA32FDF1B3F8208 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		408F044C6E64169FF9F0103DF7AE379F /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		420CE37E60E841EC43719CFC7F881AB0 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		465ECB4BFE90C4D31E7A91DA62ECCF53 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
+		4E25C5D01180836E0E43776634369B3D /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		52FD252AE2A09CFD5E8A48BC28F38C75 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		56F10D41A4FAC1A5C55F1C25C1F99438 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		5AE418644C0E5AF0A63B7FE02A4856DE /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		5CCD3C50F8FC7FD0DEDE22542EE3302F /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		5D3728A609358D9CB61018764EEFA62A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61554F380E5638037274247DB1936F86 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		61669D14BDFB05B7F27F6FE2A7F8AE69 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		6414DFE879A30E6C4176A46346C3F010 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		65C637076F6702F4979EB48FDE4359BA /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		67870ABE1D296AED153766C89E5BA8FB /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		688F73818DA7E8B205EEFFB453EED27A /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		6C6A9C4C5F72132614B7E45222E9B06D /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		6C6ACD5700F02CEA725A44EDF06EA290 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		6EAE31DD80044C6CB2F63368A1D6213E /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		6F4660797382518E1EE4578693A230FF /* SKInterpretation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKInterpretation.h; path = SpeechKit.framework/Headers/SKInterpretation.h; sourceTree = "<group>"; };
 		730D365D221E4BCCE2F1DE9C3466F916 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		737C4B586A41CFE78895EB5372B17C19 /* Pods_DellMedHLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DellMedHLA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7566B6CC883F715B73D13726DC3F9424 /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
-		75C35F7FAFEFE3DA2EFAC996BD2F269A /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
-		7693E1D7115BEAE202736AD648A29EA3 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
-		7BE8A3BC136A2F57210119312BED0566 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
-		7EBF207C16A4723F17AA0BD17BED456A /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
-		82B493BE0F5B9A87C46BE54E8E602D32 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
-		89D3CF64A3F6059D5C790BA3BED261C3 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
-		8CAF068847F4BB0C9510445BA80F5CC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E69A6820EFE213F28F088CF00FEBF22 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
-		9214B9BEAB5190391AC20E3ACDA59874 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		93274748E95AA525D57E117CC90E04AD /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7325BC7D860C1EBF612044D4622173C6 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		73699C582315E6793541C110BC56AB7D /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		737C4B586A41CFE78895EB5372B17C19 /* Pods_DellMedHLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DellMedHLA.framework; path = "Pods-DellMedHLA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739D62F05355D4EEE316CBC37E69293B /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		7915862762AAC7BD6D5946901ECCA995 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
+		7AFF22A6424225C26B7BEEDCE4D2D69D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		7E753376913166A5E21A7D932E3E6F44 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		7F9B76155B76CF3C862890B92BDC0C32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8661284C624B338EB042B750EEF0EA9B /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		889B277A9F263B444BD2EA29530DC2CD /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		89C05EE2D85DCCA2DC0D567C315C4CF4 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		8B4415A24F1772EE409EB49A285B0A31 /* TableRow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableRow.xcconfig; sourceTree = "<group>"; };
+		8D7C3274ABFC3BC59A35289BD5C034F7 /* SKTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTransaction.h; path = SpeechKit.framework/Headers/SKTransaction.h; sourceTree = "<group>"; };
+		900FACD356297D7BC4AE6133753605FB /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		91B2DB821C4DD0DAB8E3D604A5AE7C2B /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
+		92C7A48669219A5FD10CEE687F491E20 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		93A06C71938AC3DE9F31C888A5A573AE /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94A3BA9CD5EB4F4877401FA6B9191CC0 /* Pods-DellMedHLA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DellMedHLA-acknowledgements.markdown"; sourceTree = "<group>"; };
-		95601CAF2EFDC5703AA38AFE3B0A1B28 /* TableRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRow.swift; path = Sources/TableRow.swift; sourceTree = "<group>"; };
-		95C4C6571AA4ED1E343872B49655C4FF /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
-		961804E291B37E4C939B7B1475A5B45F /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961804E291B37E4C939B7B1475A5B45F /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A8155308E97FBB9E32DCE21873A76E /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		99EACF6716C89E204BFC7A80894B2ACD /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		9AC8071ACC3C9D550176A7D410BFD3E7 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		9BC02FC522CAE545CF412F9573A35495 /* TableRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRow.swift; path = Sources/TableRow.swift; sourceTree = "<group>"; };
 		9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2CFC4BEAD98EF4455FDF64AE212D55 /* Pods-DellMedHLA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DellMedHLA-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F8572032942711687433DEFA9946E1C /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
-		9F8BC84297BAFB6F4902752693C8A423 /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
-		A177CA7CAA2D640F376B50AF96CE961F /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
-		A55ADE5DF039CE7FD89B677565F2EBDF /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
-		ADAD3C8FB96D77C1FD4189E3C493E65C /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
-		B130C26E593876E977E0834FFCD3D525 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
-		B5E8E850AA25702FAF7822684EE197AC /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
-		B8FB958588094E6445E58D8E790E9856 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
-		B96B226E2DDDE58E9ADE9BE6474B650C /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
-		BA94BFE54B23D8594061938BD0BA5202 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		BF554419F36111E2B576E77E167E1A54 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		A2C37376B6B50009ABC73CA9B331C0D9 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		A2EF435E195D62B103737717FF0C5303 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		AC4DF06D220577815B304976A05AC80F /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		AC72AFF14406450E80DBEC0F1CF37AF3 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		ACDF4F155F001577490496B4C327EED0 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		ADF13DDC1A0549A598FD21122511363C /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		B0788F4D2019445C77C022B677387D0C /* SpeechKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpeechKit.h; path = SpeechKit.framework/Headers/SpeechKit.h; sourceTree = "<group>"; };
+		B1440226C1E31AE46B32A72848ABD05B /* TableRow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableRow-umbrella.h"; sourceTree = "<group>"; };
+		B77CB4C25988651A4D1ED4819C2BEE67 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		BD6171DDBF416C02FA711FAB1916653F /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		C036EDC881774040C58C639E76266379 /* Pods-DellMedHLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DellMedHLA.release.xcconfig"; sourceTree = "<group>"; };
-		C45F2D15552E95BA48AA3D7423349D70 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
-		C54785B1E327F6727690C6B677F9C58A /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		C10667D29317253E0ED7D1DB17F43713 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D6A2CBC064FFE36090258F670EFC3C /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		C328951DBA11EE0E2E240F0C34036AB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42D8E8E12F9F7E187710AFBA0A7B63E /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		C4E96C6D71885F10042A89A550695F0F /* SKRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRecognition.h; path = SpeechKit.framework/Headers/SKRecognition.h; sourceTree = "<group>"; };
+		C60AA4674EB4063F5CF2B7B6CEF4C837 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		C629D46D49412A6C4E49F9D854448DBA /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
 		C6428FB250C595F7A3E92F09E70AA0A4 /* Pods-DellMedHLA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DellMedHLA.modulemap"; sourceTree = "<group>"; };
-		C802F0658D011932E5ED7E318CB8CE82 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		CEB0A03C3EAC90856A3C0A45EFC0736C /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		CA9793E22E8AF9EEC4BBB5EDD8412FD4 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
+		CF161EACE818079864FCF6C282D2F9E5 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		D00A0D20D386BAEFE1E9AAEE912ADB1E /* SKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAudioPlayer.h; path = SpeechKit.framework/Headers/SKAudioPlayer.h; sourceTree = "<group>"; };
 		D05646A95DEB61BA15CB1C9A74AB608A /* Pods-DellMedHLA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DellMedHLA-dummy.m"; sourceTree = "<group>"; };
-		D067B71DCF43205454D86585D8BA6121 /* TableRow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableRow-umbrella.h"; sourceTree = "<group>"; };
-		D3D139280F827ADE32DB2D9E130705A1 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
-		D78ACFECA63591B21DE97BDD0D7F5455 /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
-		D83FF7B638509EA72D2C9FF533615BD8 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		D8443D1FDF448B0DC616441B08C61647 /* TableRow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableRow-dummy.m"; sourceTree = "<group>"; };
-		DAE8D63B8A00B8F5CF358AA3F6AEF1FA /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
-		DBD38DA53470E909B8A516178BB5219B /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
-		DE319B8C537012A50954E114417DA9E0 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
-		DEB9F1ECF839E3B8CD837ABFC0E6574B /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		DFD95D6E0A347DB716C5CBD04D858CCB /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
-		DFE035E86423951A0B96C387612DCF3A /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		E1EFCBDB87CF325F567D684B288DB1F7 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
-		E289853FE87EBE8282A9336CA79C0351 /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
-		E8045B59C464AE3B95077BAF13E8348B /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
-		E80BBCF731CEF556B0368889E613EDBA /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
-		E8593CB762D81AA50078667B67B621D3 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
-		EAE21500A32BD15472B9AAB737BE6843 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
-		EBFE795489BE73C30B6DD34E1215245C /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		D0734490548592906677CF34B840410E /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		D2D26571F69B28C32FCF7814F02B37D3 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		D33FFFA1C844593CB7F5A470F7C93549 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
+		D4EF605696A55EB598C16CAAED4352FE /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		DA7BFB3D79C6F5BE6FCEB31F055CB642 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		DA8B8B478C82789BEE67023119B98E89 /* SKOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKOptions.h; path = SpeechKit.framework/Headers/SKOptions.h; sourceTree = "<group>"; };
+		DB0E66A4E8BFBE126F74E1CB845C3B01 /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		DBC6CC5AB6E340BE5106081AC794661A /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		E52B03EF7EBE287CDD272A4FBF3F7A97 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		E8BF8662C51B03DF753F0CCC44FE155F /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		EAF143AEDE8AEEAED783FC12A7CBF709 /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
 		EC73E3F3C42CE55BDBC100EF9183F643 /* Pods-DellMedHLA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DellMedHLA-resources.sh"; sourceTree = "<group>"; };
-		EC779A9140C93421A732D6197382DFA9 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
-		ECAFE72193484EEC192551D919A1CEE1 /* TableRow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableRow.xcconfig; sourceTree = "<group>"; };
-		EFC6095632ACDC589CCE2049AB71A29A /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
-		F535AD4B75A276F3A50941E7A25F5264 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		F614588599FCBD0A9021F94AF5E6154E /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
-		F8914C6E3AE17C0CEABF9173A7040DD9 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
-		F958B1EC8E3AD97A4B98A2C952EF5D3C /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
-		FB958FE758221CA738C78947996D2602 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
-		FD540CFDFAB8E116B32766A63C8136C2 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
-		FE8C6DB234C9DF4E54489102F45BCD95 /* TableRow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TableRow.modulemap; sourceTree = "<group>"; };
-		FE8D23B28F4C7BC8A8BA12B8FBC82B8D /* IntrinsicContentSizeTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntrinsicContentSizeTableView.swift; path = Sources/IntrinsicContentSizeTableView.swift; sourceTree = "<group>"; };
+		EE42F68AD52D4E93B4B857AC69330FE2 /* TableRow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TableRow.modulemap; sourceTree = "<group>"; };
+		F526A89D501E912BBBF3B3F4A7CCCB7C /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		FA904829793B9FB73EBD6A49AE7A7FB2 /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		FAE77A8567B54B385BE074F8D92654C7 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		FEE0D91004B0B2FF0E64D7FC4EA73544 /* TableRow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableRow-dummy.m"; sourceTree = "<group>"; };
+		FEE9B993238A4EA89A7E9A43DEA5E75C /* TableInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableInlineRow.swift; path = Sources/TableInlineRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,30 +290,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		152EEE63709838705590616CB461565D /* Pods */ = {
+		07F4F2A5AD2F3A9D3B1F5B93FBD67F25 /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
-				72369B3650331275D4ABA5DFFC25DC43 /* Eureka */,
-				177116EF574307842BF185B25581AEC4 /* PureLayout */,
-				FA362AF7B53D65770C9ECE89965CDF9F /* TableRow */,
+				6C6ACD5700F02CEA725A44EDF06EA290 /* ALView+PureLayout.h */,
+				0B5F9711CBF95995DC04F51F1F162513 /* ALView+PureLayout.m */,
+				351CB6F46F74B4EE6E7F29A40D544298 /* NSArray+PureLayout.h */,
+				99EACF6716C89E204BFC7A80894B2ACD /* NSArray+PureLayout.m */,
+				A2EF435E195D62B103737717FF0C5303 /* NSLayoutConstraint+PureLayout.h */,
+				5CCD3C50F8FC7FD0DEDE22542EE3302F /* NSLayoutConstraint+PureLayout.m */,
+				889B277A9F263B444BD2EA29530DC2CD /* PureLayout.h */,
+				6C6A9C4C5F72132614B7E45222E9B06D /* PureLayout+Internal.h */,
+				08E82085E2DBB0047EA6C16535824D24 /* PureLayoutDefines.h */,
+				A56E25E30A721B2263BD336A1C795B52 /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		177116EF574307842BF185B25581AEC4 /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				9214B9BEAB5190391AC20E3ACDA59874 /* ALView+PureLayout.h */,
-				F535AD4B75A276F3A50941E7A25F5264 /* ALView+PureLayout.m */,
-				308421F8D7CC1EEC73C2189EDDD826EB /* NSArray+PureLayout.h */,
-				4F5B2082E0971C3945FD0B4BC669E51F /* NSArray+PureLayout.m */,
-				41F638B0735FA86908FA53D5DAA4BD84 /* NSLayoutConstraint+PureLayout.h */,
-				D83FF7B638509EA72D2C9FF533615BD8 /* NSLayoutConstraint+PureLayout.m */,
-				DFE035E86423951A0B96C387612DCF3A /* PureLayout.h */,
-				BA94BFE54B23D8594061938BD0BA5202 /* PureLayout+Internal.h */,
-				C54785B1E327F6727690C6B677F9C58A /* PureLayoutDefines.h */,
-				A38F9FF5B2C3636E31D2E8C5CEF7A3CC /* Support Files */,
-			);
+			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -318,18 +316,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1DC55AE8AF50CD3B8751ECAB63DAE954 /* Support Files */ = {
+		1BEF9092579CD5128AB258050ACDA2B9 /* TableRow */ = {
 			isa = PBXGroup;
 			children = (
-				5FAC73C6B958AB6B3BB3E4C774BA5ABD /* Eureka.modulemap */,
-				140CEDD8A8B36D252D2A51B135EF6E38 /* Eureka.xcconfig */,
-				82B493BE0F5B9A87C46BE54E8E602D32 /* Eureka-dummy.m */,
-				138E042BCADDD29EFC9A25EB2D30D520 /* Eureka-prefix.pch */,
-				75C35F7FAFEFE3DA2EFAC996BD2F269A /* Eureka-umbrella.h */,
-				036F82CD5B8E7E418DA65400E9CADB41 /* Info.plist */,
+				363E069ABA6E15EB5FFA9AFC95AD0EE6 /* IntrinsicContentSizeTableView.swift */,
+				FEE9B993238A4EA89A7E9A43DEA5E75C /* TableInlineRow.swift */,
+				9BC02FC522CAE545CF412F9573A35495 /* TableRow.swift */,
+				5A2024CBEBB40BE45BC094FB184B2085 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Eureka";
+			name = TableRow;
+			path = TableRow;
+			sourceTree = "<group>";
+		};
+		1E7089B017C03A30C965BB9B9987D96C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15375DE224B1803B8C87C40DC7E1ABE3 /* Eureka.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		26DE8B656F8D9E979DF91F24C0E5CF52 /* iOS */ = {
@@ -352,83 +356,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		592B74D7B5D5BC2B429D5A2CAE5674AE /* Resources */ = {
+		54B168CE8DE4CD39FC3D686274924BD5 /* SpeechKit */ = {
 			isa = PBXGroup;
 			children = (
-				56DC053BCD169CA051843E6AC51D76C9 /* Eureka.bundle */,
+				1A082C8170E65F612E91028B09166E8C /* SKAudio.h */,
+				D00A0D20D386BAEFE1E9AAEE912ADB1E /* SKAudioPlayer.h */,
+				6F4660797382518E1EE4578693A230FF /* SKInterpretation.h */,
+				DA8B8B478C82789BEE67023119B98E89 /* SKOptions.h */,
+				C4E96C6D71885F10042A89A550695F0F /* SKRecognition.h */,
+				27B790E2DFBAE36B34EDB911957A3F70 /* SKSession.h */,
+				8D7C3274ABFC3BC59A35289BD5C034F7 /* SKTransaction.h */,
+				B0788F4D2019445C77C022B677387D0C /* SpeechKit.h */,
+				A1A57EC0EBB4E6F99E32C3D2AA1FB54D /* Frameworks */,
 			);
-			name = Resources;
+			name = SpeechKit;
+			path = SpeechKit;
 			sourceTree = "<group>";
 		};
-		72369B3650331275D4ABA5DFFC25DC43 /* Eureka */ = {
+		5A2024CBEBB40BE45BC094FB184B2085 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				307D99B94D5D53334093B82ECFD47FB6 /* ActionSheetRow.swift */,
-				B96B226E2DDDE58E9ADE9BE6474B650C /* AlertOptionsRow.swift */,
-				E1EFCBDB87CF325F567D684B288DB1F7 /* AlertRow.swift */,
-				08C99636F2F777A91C8F9D764C8EECBA /* BaseRow.swift */,
-				DFD95D6E0A347DB716C5CBD04D858CCB /* ButtonRow.swift */,
-				7566B6CC883F715B73D13726DC3F9424 /* ButtonRowWithPresent.swift */,
-				B8FB958588094E6445E58D8E790E9856 /* Cell.swift */,
-				20F790FCF756FE104D87B4508A2983BB /* CellType.swift */,
-				33274B32455F4EA659D069D856F32C5C /* CheckRow.swift */,
-				9F8572032942711687433DEFA9946E1C /* Core.swift */,
-				7693E1D7115BEAE202736AD648A29EA3 /* DateFieldRow.swift */,
-				93274748E95AA525D57E117CC90E04AD /* DateInlineFieldRow.swift */,
-				004E6E0BE50F997BA1999D8CB0CC25A0 /* DateInlineRow.swift */,
-				6381FD042B2D5B956BE223DA75E01E28 /* DatePickerRow.swift */,
-				DBD38DA53470E909B8A516178BB5219B /* DateRow.swift */,
-				49020BABD2A99A277FBDAFB438733046 /* DecimalFormatter.swift */,
-				E80BBCF731CEF556B0368889E613EDBA /* FieldRow.swift */,
-				89D3CF64A3F6059D5C790BA3BED261C3 /* FieldsRow.swift */,
-				49ADE696BC3A72602426440C523B9034 /* Form.swift */,
-				EAE21500A32BD15472B9AAB737BE6843 /* GenericMultipleSelectorRow.swift */,
-				F614588599FCBD0A9021F94AF5E6154E /* HeaderFooterView.swift */,
-				5D7CE6F1B7ED6BB73B8A4199D309DD79 /* Helpers.swift */,
-				DE319B8C537012A50954E114417DA9E0 /* InlineRowType.swift */,
-				9F8BC84297BAFB6F4902752693C8A423 /* LabelRow.swift */,
-				11F7A8964184CC7F4E01F05715CCC1BC /* ListCheckRow.swift */,
-				FB958FE758221CA738C78947996D2602 /* MultipleSelectorRow.swift */,
-				3D2E0C030960D5519C8A8DE2AAD28911 /* MultipleSelectorViewController.swift */,
-				DAE8D63B8A00B8F5CF358AA3F6AEF1FA /* NavigationAccessoryView.swift */,
-				F8914C6E3AE17C0CEABF9173A7040DD9 /* Operators.swift */,
-				216CAF08211C7AA1AFBB0F1F84583916 /* OptionsRow.swift */,
-				7BE8A3BC136A2F57210119312BED0566 /* PickerInlineRow.swift */,
-				4AB33DD944DBD70F127D0180C8FAF056 /* PickerInputRow.swift */,
-				0DA0A21A836A153E32F564C04298DAB7 /* PickerRow.swift */,
-				2883C31BE1D68939AA93F39512E6E47F /* PopoverSelectorRow.swift */,
-				EFC6095632ACDC589CCE2049AB71A29A /* PresenterRowType.swift */,
-				F958B1EC8E3AD97A4B98A2C952EF5D3C /* Protocols.swift */,
-				3DD92C14E80DA222DAF06ED8532C0EF7 /* PushRow.swift */,
-				EBFE795489BE73C30B6DD34E1215245C /* Row.swift */,
-				4C1DACDF6004CFF0D67223D3CCC6567A /* RowControllerType.swift */,
-				B130C26E593876E977E0834FFCD3D525 /* RowProtocols.swift */,
-				6190BB3C6B6CE417DA1B4AD296DAC797 /* RowType.swift */,
-				BF554419F36111E2B576E77E167E1A54 /* RuleClosure.swift */,
-				D3D139280F827ADE32DB2D9E130705A1 /* RuleEmail.swift */,
-				E8593CB762D81AA50078667B67B621D3 /* RuleEqualsToRow.swift */,
-				FD540CFDFAB8E116B32766A63C8136C2 /* RuleLength.swift */,
-				7EBF207C16A4723F17AA0BD17BED456A /* RuleRange.swift */,
-				7105B93A5EA45D4EDD0C313266EA12FD /* RuleRegExp.swift */,
-				D78ACFECA63591B21DE97BDD0D7F5455 /* RuleRequired.swift */,
-				3829049CFC1EB13539A8B4475AA7ABD6 /* RuleURL.swift */,
-				0C47F181B2327DF8C9394AE70A6A0E90 /* Section.swift */,
-				C45F2D15552E95BA48AA3D7423349D70 /* SegmentedRow.swift */,
-				B5E8E850AA25702FAF7822684EE197AC /* SelectableRowType.swift */,
-				E289853FE87EBE8282A9336CA79C0351 /* SelectableSection.swift */,
-				95C4C6571AA4ED1E343872B49655C4FF /* SelectorAlertController.swift */,
-				A55ADE5DF039CE7FD89B677565F2EBDF /* SelectorRow.swift */,
-				1F5302DCDAE54E6AB2C1D6C9A8CD20D4 /* SelectorViewController.swift */,
-				EC779A9140C93421A732D6197382DFA9 /* SliderRow.swift */,
-				CEB0A03C3EAC90856A3C0A45EFC0736C /* StepperRow.swift */,
-				ADAD3C8FB96D77C1FD4189E3C493E65C /* SwipeActions.swift */,
-				E8045B59C464AE3B95077BAF13E8348B /* SwitchRow.swift */,
-				18E55DBB2095A0FE00726607 /* TextAreaRow.swift */,
-				05FCA8F1CBDF0CA5E0488FB45C8D917E /* Validation.swift */,
-				592B74D7B5D5BC2B429D5A2CAE5674AE /* Resources */,
-				1DC55AE8AF50CD3B8751ECAB63DAE954 /* Support Files */,
+				C10667D29317253E0ED7D1DB17F43713 /* Info.plist */,
+				EE42F68AD52D4E93B4B857AC69330FE2 /* TableRow.modulemap */,
+				8B4415A24F1772EE409EB49A285B0A31 /* TableRow.xcconfig */,
+				FEE0D91004B0B2FF0E64D7FC4EA73544 /* TableRow-dummy.m */,
+				020A07F84E8D8FCA4D3ED09052871C22 /* TableRow-prefix.pch */,
+				B1440226C1E31AE46B32A72848ABD05B /* TableRow-umbrella.h */,
 			);
-			path = Eureka;
+			name = "Support Files";
+			path = "../Target Support Files/TableRow";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -436,38 +392,128 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D256155DD324B95CA87557494379336D /* Frameworks */,
-				152EEE63709838705590616CB461565D /* Pods */,
+				8BD44A7B7BB7732A7CF304AFC5EFE71E /* Pods */,
 				2E1DD4C34A87717E2762DB238DB5F112 /* Products */,
 				19F12C3A2E5A508FB65F092274460D0F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A38F9FF5B2C3636E31D2E8C5CEF7A3CC /* Support Files */ = {
+		88ED3CBABF8D8FE6F7862B6B44BC005E /* Eureka */ = {
 			isa = PBXGroup;
 			children = (
-				0CF04E682A1E853F6538706638DF606A /* Info.plist */,
-				A177CA7CAA2D640F376B50AF96CE961F /* PureLayout.modulemap */,
-				DEB9F1ECF839E3B8CD837ABFC0E6574B /* PureLayout.xcconfig */,
-				681C1228209C26EF4F7225C2ACB36616 /* PureLayout-dummy.m */,
-				C802F0658D011932E5ED7E318CB8CE82 /* PureLayout-prefix.pch */,
-				8E69A6820EFE213F28F088CF00FEBF22 /* PureLayout-umbrella.h */,
+				1F9B03C7FF35BA1B8C3A508170BBDFDB /* ActionSheetRow.swift */,
+				EAF143AEDE8AEEAED783FC12A7CBF709 /* AlertOptionsRow.swift */,
+				D0734490548592906677CF34B840410E /* AlertRow.swift */,
+				67870ABE1D296AED153766C89E5BA8FB /* BaseRow.swift */,
+				AC4DF06D220577815B304976A05AC80F /* ButtonRow.swift */,
+				F526A89D501E912BBBF3B3F4A7CCCB7C /* ButtonRowWithPresent.swift */,
+				2A5A5CEFB9250604FE3818F5B1B00C88 /* Cell.swift */,
+				1D5C73AF0C531E748E56B8FBB16D7B62 /* CellType.swift */,
+				3C60EE6B2E3D7ABC8BA32FDF1B3F8208 /* CheckRow.swift */,
+				15852B33E4CC54E2BA9322C994C69631 /* Core.swift */,
+				A2C37376B6B50009ABC73CA9B331C0D9 /* DateFieldRow.swift */,
+				7E753376913166A5E21A7D932E3E6F44 /* DateInlineFieldRow.swift */,
+				D33FFFA1C844593CB7F5A470F7C93549 /* DateInlineRow.swift */,
+				91B2DB821C4DD0DAB8E3D604A5AE7C2B /* DatePickerRow.swift */,
+				0A5A4387F1016F31518B77737E54A975 /* DateRow.swift */,
+				89C05EE2D85DCCA2DC0D567C315C4CF4 /* DecimalFormatter.swift */,
+				8661284C624B338EB042B750EEF0EA9B /* FieldRow.swift */,
+				7325BC7D860C1EBF612044D4622173C6 /* FieldsRow.swift */,
+				C629D46D49412A6C4E49F9D854448DBA /* Form.swift */,
+				0F5F0F09E8EE32BC0F146D065365FC77 /* GenericMultipleSelectorRow.swift */,
+				93A06C71938AC3DE9F31C888A5A573AE /* HeaderFooterView.swift */,
+				6414DFE879A30E6C4176A46346C3F010 /* Helpers.swift */,
+				408F044C6E64169FF9F0103DF7AE379F /* InlineRowType.swift */,
+				FA904829793B9FB73EBD6A49AE7A7FB2 /* LabelRow.swift */,
+				CA9793E22E8AF9EEC4BBB5EDD8412FD4 /* ListCheckRow.swift */,
+				739D62F05355D4EEE316CBC37E69293B /* MultipleSelectorRow.swift */,
+				ADF13DDC1A0549A598FD21122511363C /* MultipleSelectorViewController.swift */,
+				D2D26571F69B28C32FCF7814F02B37D3 /* NavigationAccessoryView.swift */,
+				112E0BE258D61E175308EADD0A8C99F9 /* Operators.swift */,
+				C42D8E8E12F9F7E187710AFBA0A7B63E /* OptionsRow.swift */,
+				ACDF4F155F001577490496B4C327EED0 /* PickerInlineRow.swift */,
+				465ECB4BFE90C4D31E7A91DA62ECCF53 /* PickerInputRow.swift */,
+				2C299C09C5CBBBB173C04A8D4F568411 /* PickerRow.swift */,
+				DB0E66A4E8BFBE126F74E1CB845C3B01 /* PopoverSelectorRow.swift */,
+				17F7D4CC46D695D65B7C8FF61FE75958 /* PresenterRowType.swift */,
+				96A8155308E97FBB9E32DCE21873A76E /* Protocols.swift */,
+				92C7A48669219A5FD10CEE687F491E20 /* PushRow.swift */,
+				E8BF8662C51B03DF753F0CCC44FE155F /* Row.swift */,
+				D4EF605696A55EB598C16CAAED4352FE /* RowControllerType.swift */,
+				FAE77A8567B54B385BE074F8D92654C7 /* RowProtocols.swift */,
+				C60AA4674EB4063F5CF2B7B6CEF4C837 /* RowType.swift */,
+				14230591BE1D6FB84A4208264CCCC215 /* RuleClosure.swift */,
+				61669D14BDFB05B7F27F6FE2A7F8AE69 /* RuleEmail.swift */,
+				12A7D0149BE4D7EFA8E6CAB8483AE32D /* RuleEqualsToRow.swift */,
+				56F10D41A4FAC1A5C55F1C25C1F99438 /* RuleLength.swift */,
+				067B7244F355AF55AE185EBC5BA8A446 /* RuleRange.swift */,
+				16A038D2B1F968FD5AAEC8782EAA7304 /* RuleRegExp.swift */,
+				3963918B05ABC4A286076036C1A7C2FF /* RuleRequired.swift */,
+				273F6DFAF59E220837F429B3BF356C88 /* RuleURL.swift */,
+				DA7BFB3D79C6F5BE6FCEB31F055CB642 /* Section.swift */,
+				61554F380E5638037274247DB1936F86 /* SegmentedRow.swift */,
+				B77CB4C25988651A4D1ED4819C2BEE67 /* SelectableRowType.swift */,
+				4E25C5D01180836E0E43776634369B3D /* SelectableSection.swift */,
+				65C637076F6702F4979EB48FDE4359BA /* SelectorAlertController.swift */,
+				6EAE31DD80044C6CB2F63368A1D6213E /* SelectorRow.swift */,
+				5AE418644C0E5AF0A63B7FE02A4856DE /* SelectorViewController.swift */,
+				688F73818DA7E8B205EEFFB453EED27A /* SliderRow.swift */,
+				900FACD356297D7BC4AE6133753605FB /* StepperRow.swift */,
+				2C5FA638A3CFA1BD8D201A267104CB4C /* SwipeActions.swift */,
+				E52B03EF7EBE287CDD272A4FBF3F7A97 /* SwitchRow.swift */,
+				7AFF22A6424225C26B7BEEDCE4D2D69D /* Validation.swift */,
+				1E7089B017C03A30C965BB9B9987D96C /* Resources */,
+				944BF6B846C5FDBCE701C8CDA734095C /* Support Files */,
+			);
+			name = Eureka;
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		8BD44A7B7BB7732A7CF304AFC5EFE71E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88ED3CBABF8D8FE6F7862B6B44BC005E /* Eureka */,
+				07F4F2A5AD2F3A9D3B1F5B93FBD67F25 /* PureLayout */,
+				54B168CE8DE4CD39FC3D686274924BD5 /* SpeechKit */,
+				1BEF9092579CD5128AB258050ACDA2B9 /* TableRow */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		944BF6B846C5FDBCE701C8CDA734095C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7915862762AAC7BD6D5946901ECCA995 /* Eureka.modulemap */,
+				420CE37E60E841EC43719CFC7F881AB0 /* Eureka.xcconfig */,
+				1926D60EF793E7C73F073B15CD9A7861 /* Eureka-dummy.m */,
+				52FD252AE2A09CFD5E8A48BC28F38C75 /* Eureka-prefix.pch */,
+				C1D6A2CBC064FFE36090258F670EFC3C /* Eureka-umbrella.h */,
+				C328951DBA11EE0E2E240F0C34036AB7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		A1A57EC0EBB4E6F99E32C3D2AA1FB54D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73699C582315E6793541C110BC56AB7D /* SpeechKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A56E25E30A721B2263BD336A1C795B52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9B76155B76CF3C862890B92BDC0C32 /* Info.plist */,
+				CF161EACE818079864FCF6C282D2F9E5 /* PureLayout.modulemap */,
+				AC72AFF14406450E80DBEC0F1CF37AF3 /* PureLayout.xcconfig */,
+				9AC8071ACC3C9D550176A7D410BFD3E7 /* PureLayout-dummy.m */,
+				BD6171DDBF416C02FA711FAB1916653F /* PureLayout-prefix.pch */,
+				DBC6CC5AB6E340BE5106081AC794661A /* PureLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PureLayout";
-			sourceTree = "<group>";
-		};
-		A85A0CE67BAB1E527F2A56A9FCA328B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8CAF068847F4BB0C9510445BA80F5CC2 /* Info.plist */,
-				FE8C6DB234C9DF4E54489102F45BCD95 /* TableRow.modulemap */,
-				ECAFE72193484EEC192551D919A1CEE1 /* TableRow.xcconfig */,
-				D8443D1FDF448B0DC616441B08C61647 /* TableRow-dummy.m */,
-				1B73876E8D5F24957089163B2F7C9E33 /* TableRow-prefix.pch */,
-				D067B71DCF43205454D86585D8BA6121 /* TableRow-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TableRow";
 			sourceTree = "<group>";
 		};
 		D256155DD324B95CA87557494379336D /* Frameworks */ = {
@@ -477,17 +523,6 @@
 				26DE8B656F8D9E979DF91F24C0E5CF52 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FA362AF7B53D65770C9ECE89965CDF9F /* TableRow */ = {
-			isa = PBXGroup;
-			children = (
-				FE8D23B28F4C7BC8A8BA12B8FBC82B8D /* IntrinsicContentSizeTableView.swift */,
-				15FA3148F72F8A5705C9DA593F6DECEF /* TableInlineRow.swift */,
-				95601CAF2EFDC5703AA38AFE3B0A1B28 /* TableRow.swift */,
-				A85A0CE67BAB1E527F2A56A9FCA328B0 /* Support Files */,
-			);
-			path = TableRow;
 			sourceTree = "<group>";
 		};
 		FC1BD30E816B0FB85824167E5195889F /* Pods-DellMedHLA */ = {
@@ -711,7 +746,6 @@
 				E701C52D8CEECE89DD781047AE38D20D /* Row.swift in Sources */,
 				9C1ADA7FE90B44FCDD005B3B70DEC025 /* RowControllerType.swift in Sources */,
 				BD4363A33291726C52E80D916359DCC0 /* RowProtocols.swift in Sources */,
-				18E55DBC2095A0FE00726607 /* TextAreaRow.swift in Sources */,
 				0DDF90AAACFE7B1FD5B1ECF40AEB56BF /* RowType.swift in Sources */,
 				C9876F34C198ED815CCE2F01A807C6EE /* RuleClosure.swift in Sources */,
 				A3C979A75C175E033C9BC702F7149496 /* RuleEmail.swift in Sources */,
@@ -931,7 +965,7 @@
 		};
 		348146F9FEBE0B0A2C75D79C6B78A00C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 140CEDD8A8B36D252D2A51B135EF6E38 /* Eureka.xcconfig */;
+			baseConfigurationReference = 420CE37E60E841EC43719CFC7F881AB0 /* Eureka.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -964,7 +998,7 @@
 		};
 		47DB426B2297A16CA92DF56DAEB388F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECAFE72193484EEC192551D919A1CEE1 /* TableRow.xcconfig */;
+			baseConfigurationReference = 8B4415A24F1772EE409EB49A285B0A31 /* TableRow.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -997,7 +1031,7 @@
 		};
 		798CC7247FE6F99C88314712F153832A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECAFE72193484EEC192551D919A1CEE1 /* TableRow.xcconfig */;
+			baseConfigurationReference = 8B4415A24F1772EE409EB49A285B0A31 /* TableRow.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1029,7 +1063,7 @@
 		};
 		8511C343DC2A354C4D46007337EA18C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 140CEDD8A8B36D252D2A51B135EF6E38 /* Eureka.xcconfig */;
+			baseConfigurationReference = 420CE37E60E841EC43719CFC7F881AB0 /* Eureka.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1061,7 +1095,7 @@
 		};
 		9D03505FE62A35FBBE14F0DDC2114C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB9F1ECF839E3B8CD837ABFC0E6574B /* PureLayout.xcconfig */;
+			baseConfigurationReference = AC72AFF14406450E80DBEC0F1CF37AF3 /* PureLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1092,7 +1126,7 @@
 		};
 		C927D1BB56268781BDC0E63248BC8B06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB9F1ECF839E3B8CD837ABFC0E6574B /* PureLayout.xcconfig */;
+			baseConfigurationReference = AC72AFF14406450E80DBEC0F1CF37AF3 /* PureLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

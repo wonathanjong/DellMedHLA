@@ -8,4 +8,5 @@ target 'DellMedHLA' do
   pod 'Eureka'
   pod 'TableRow'
   pod 'PureLayout'
+  pod 'SpeechKit'
 end
