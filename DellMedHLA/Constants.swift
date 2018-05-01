@@ -14,7 +14,15 @@ import PureLayout
 struct Constants {
     
     struct Config {
-     
+       static var SKSAppKey = "37df811a6128c544c18fdbe234d5da1af25ba67adfa5737768ca00953f83da76625c90c384550745e5e32819b80234aa5eda243d7f98b4e762b47ca137561799"
+       static var SKSAppId = "NMDPTRIAL_jonathanwong_utexas_edu20180430221541"
+       static var SKSServerHost = "sslsandbox-nmdp.nuancemobility.net"
+       static var SKSServerPort = "443"
+        
+       static var SKSServerUrl = String(format: "nmsps://NMDPTRIAL_jonathanwong_utexas_edu20180430221541@sslsandbox-nmdp.nuancemobility.net:443", SKSAppId, SKSServerHost, SKSServerPort)
+        
+        static var SKSLanguage = "!LANGUAGE!"
+        static let LANGUAGE = SKSLanguage == "!LANGUAGE!" ? "eng-USA" : SKSLanguage
     }
     
     struct Color {

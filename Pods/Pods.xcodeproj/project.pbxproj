@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		0FF87DF6D02FAE0CEC1BCEE5C093680D /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A038D2B1F968FD5AAEC8782EAA7304 /* RuleRegExp.swift */; };
 		11A044B8C31303378B8237DCB44D318D /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D6A2CBC064FFE36090258F670EFC3C /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BA094500131552667502000232643B /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A9C4C5F72132614B7E45222E9B06D /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18724E8920980BF2005B7319 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724E8820980BF2005B7319 /* TextAreaRow.swift */; };
 		19264965154E9EDB5226D4EDAB89025D /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15375DE224B1803B8C87C40DC7E1ABE3 /* Eureka.bundle */; };
 		1F0CE8C0B7CCCCF7AD0190B16D7FB8DA /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE418644C0E5AF0A63B7FE02A4856DE /* SelectorViewController.swift */; };
 		1FC9A97704EEAA1AA22EB0FAD237116A /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A06C71938AC3DE9F31C888A5A573AE /* HeaderFooterView.swift */; };
@@ -146,12 +147,13 @@
 		15852B33E4CC54E2BA9322C994C69631 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
 		16A038D2B1F968FD5AAEC8782EAA7304 /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
 		17F7D4CC46D695D65B7C8FF61FE75958 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		18724E8820980BF2005B7319 /* TextAreaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAreaRow.swift; sourceTree = "<group>"; };
 		1926D60EF793E7C73F073B15CD9A7861 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
 		1A082C8170E65F612E91028B09166E8C /* SKAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAudio.h; path = SpeechKit.framework/Headers/SKAudio.h; sourceTree = "<group>"; };
 		1D5C73AF0C531E748E56B8FBB16D7B62 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
 		1F9B03C7FF35BA1B8C3A508170BBDFDB /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
 		273F6DFAF59E220837F429B3BF356C88 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
-		27789BF32DD156D54BFA352B431814A2 /* TableRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TableRow.framework; path = TableRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27789BF32DD156D54BFA352B431814A2 /* TableRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B790E2DFBAE36B34EDB911957A3F70 /* SKSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSession.h; path = SpeechKit.framework/Headers/SKSession.h; sourceTree = "<group>"; };
 		2A5A5CEFB9250604FE3818F5B1B00C88 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
 		2C299C09C5CBBBB173C04A8D4F568411 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
@@ -170,7 +172,7 @@
 		56F10D41A4FAC1A5C55F1C25C1F99438 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
 		5AE418644C0E5AF0A63B7FE02A4856DE /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
 		5CCD3C50F8FC7FD0DEDE22542EE3302F /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		5D3728A609358D9CB61018764EEFA62A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3728A609358D9CB61018764EEFA62A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61554F380E5638037274247DB1936F86 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
 		61669D14BDFB05B7F27F6FE2A7F8AE69 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
 		6414DFE879A30E6C4176A46346C3F010 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
@@ -184,7 +186,7 @@
 		730D365D221E4BCCE2F1DE9C3466F916 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7325BC7D860C1EBF612044D4622173C6 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
 		73699C582315E6793541C110BC56AB7D /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
-		737C4B586A41CFE78895EB5372B17C19 /* Pods_DellMedHLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DellMedHLA.framework; path = "Pods-DellMedHLA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		737C4B586A41CFE78895EB5372B17C19 /* Pods_DellMedHLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DellMedHLA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		739D62F05355D4EEE316CBC37E69293B /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
 		7915862762AAC7BD6D5946901ECCA995 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
 		7AFF22A6424225C26B7BEEDCE4D2D69D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
@@ -199,9 +201,9 @@
 		91B2DB821C4DD0DAB8E3D604A5AE7C2B /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
 		92C7A48669219A5FD10CEE687F491E20 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
 		93A06C71938AC3DE9F31C888A5A573AE /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94A3BA9CD5EB4F4877401FA6B9191CC0 /* Pods-DellMedHLA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DellMedHLA-acknowledgements.markdown"; sourceTree = "<group>"; };
-		961804E291B37E4C939B7B1475A5B45F /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961804E291B37E4C939B7B1475A5B45F /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A8155308E97FBB9E32DCE21873A76E /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
 		99EACF6716C89E204BFC7A80894B2ACD /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		9AC8071ACC3C9D550176A7D410BFD3E7 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
@@ -304,7 +306,6 @@
 				08E82085E2DBB0047EA6C16535824D24 /* PureLayoutDefines.h */,
 				A56E25E30A721B2263BD336A1C795B52 /* Support Files */,
 			);
-			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -324,7 +325,6 @@
 				9BC02FC522CAE545CF412F9573A35495 /* TableRow.swift */,
 				5A2024CBEBB40BE45BC094FB184B2085 /* Support Files */,
 			);
-			name = TableRow;
 			path = TableRow;
 			sourceTree = "<group>";
 		};
@@ -369,7 +369,6 @@
 				B0788F4D2019445C77C022B677387D0C /* SpeechKit.h */,
 				A1A57EC0EBB4E6F99E32C3D2AA1FB54D /* Frameworks */,
 			);
-			name = SpeechKit;
 			path = SpeechKit;
 			sourceTree = "<group>";
 		};
@@ -461,11 +460,11 @@
 				900FACD356297D7BC4AE6133753605FB /* StepperRow.swift */,
 				2C5FA638A3CFA1BD8D201A267104CB4C /* SwipeActions.swift */,
 				E52B03EF7EBE287CDD272A4FBF3F7A97 /* SwitchRow.swift */,
+				18724E8820980BF2005B7319 /* TextAreaRow.swift */,
 				7AFF22A6424225C26B7BEEDCE4D2D69D /* Validation.swift */,
 				1E7089B017C03A30C965BB9B9987D96C /* Resources */,
 				944BF6B846C5FDBCE701C8CDA734095C /* Support Files */,
 			);
-			name = Eureka;
 			path = Eureka;
 			sourceTree = "<group>";
 		};
@@ -746,6 +745,7 @@
 				E701C52D8CEECE89DD781047AE38D20D /* Row.swift in Sources */,
 				9C1ADA7FE90B44FCDD005B3B70DEC025 /* RowControllerType.swift in Sources */,
 				BD4363A33291726C52E80D916359DCC0 /* RowProtocols.swift in Sources */,
+				18724E8920980BF2005B7319 /* TextAreaRow.swift in Sources */,
 				0DDF90AAACFE7B1FD5B1ECF40AEB56BF /* RowType.swift in Sources */,
 				C9876F34C198ED815CCE2F01A807C6EE /* RuleClosure.swift in Sources */,
 				A3C979A75C175E033C9BC702F7149496 /* RuleEmail.swift in Sources */,
