@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18724E8B2098572C005B7319 /* +FormCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724E8A2098572C005B7319 /* +FormCreation.swift */; };
 		1892FAD8209549EA007F268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892FAD7209549EA007F268F /* AppDelegate.swift */; };
 		1892FADF209549EB007F268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1892FADE209549EB007F268F /* Assets.xcassets */; };
 		1892FAE2209549EB007F268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892FAE0209549EB007F268F /* LaunchScreen.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18724E8A2098572C005B7319 /* +FormCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+FormCreation.swift"; sourceTree = "<group>"; };
 		1892FAD4209549EA007F268F /* DellMedHLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DellMedHLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1892FAD7209549EA007F268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1892FADE209549EB007F268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				18E55D8A2095560900726607 /* Constants.swift */,
 				18E55D8C209556C700726607 /* WelcomePageViewController.swift */,
 				18E55D8E2095622300726607 /* MainFormViewController.swift */,
+				18724E8A2098572C005B7319 /* +FormCreation.swift */,
 				18E55D9920958E0B00726607 /* Custom Xibs */,
 				18E55D9A20958E2200726607 /* Storyboards */,
 				1892FAE3209549EB007F268F /* Info.plist */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1892FAD8209549EA007F268F /* AppDelegate.swift in Sources */,
+				18724E8B2098572C005B7319 /* +FormCreation.swift in Sources */,
 				18E55D8D209556C700726607 /* WelcomePageViewController.swift in Sources */,
 				18E55DA9209590FB00726607 /* CustomCells.swift in Sources */,
 				18E55DAC2095945800726607 /* FloatLabelTextField.swift in Sources */,
