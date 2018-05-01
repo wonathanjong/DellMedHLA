@@ -14,7 +14,6 @@ import TableRow
 
 class MainFormViewController: FormViewController {
     
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -852,7 +851,10 @@ class MainFormViewController: FormViewController {
     }
     
     @objc func handleJSON() {
+        print(self.form.values())
         let formvalues = self.form.values()
+        scrollToRow(rowID: "Patellar")
+        setCellValue(rowID: "Patellar", value: "1+ Decrease")
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: formvalues, options: .prettyPrinted)
             // here "jsonData" is the dictionary encoded in JSON data
@@ -868,6 +870,26 @@ class MainFormViewController: FormViewController {
             print(error.localizedDescription)
         }
 
+    }
+    
+    func scrollToRow(rowID: String){
+        let row = self.form.rowBy(tag: rowID)
+        if let rowIndexPath = row?.indexPath{
+        self.tableView.scrollToRow(at: rowIndexPath, at: .top, animated: true)
+        }
+    }
+    
+    func scrollToSection(sectionID: String){
+        let section = self.form.sectionBy(tag: sectionID)
+        if let sectionIndexPath = section?.index{
+            self.tableView.scrollToRow(at: IndexPath(row: 0, section: sectionIndexPath), at: .top, animated: true)
+        }
+    }
+    
+    func setCellValue(rowID: String, value: String){
+        let row = self.form.rowBy(tag: rowID)
+        self.form.setValues([rowID : value])
+        row?.updateCell()
     }
 }
 
