@@ -46,3 +46,31 @@ struct Constants {
 typealias Emoji = String
 let 👦🏼 = "👦🏼", 🍐 = "🍐", 💁🏻 = "💁🏻", 🐗 = "🐗", 🐼 = "🐼", 🐻 = "🐻", 🐖 = "🐖", 🐡 = "🐡"
 
+extension Dictionary where Key == String {
+    
+    subscript(caseInsensitive key: Key) -> Value? {
+        get {
+            if let k = keys.first(where: { $0.caseInsensitiveCompare(key) == .orderedSame }) {
+                return self[k]
+            }
+            return nil
+        }
+        set {
+            if let k = keys.first(where: { $0.caseInsensitiveCompare(key) == .orderedSame }) {
+                self[k] = newValue
+            } else {
+                self[key] = newValue
+            }
+        }
+    }
+    
+}
+
+extension Dictionary where Key: ExpressibleByStringLiteral {
+    mutating func lowercaseKeys() {
+        for key in self.keys {
+             self[String(describing: key).lowercased() as! Key] = self.removeValue(forKey: key)
+        }
+    }
+}
+
